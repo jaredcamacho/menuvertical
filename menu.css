@@ -1,0 +1,44 @@
+header{
+    width: 100%; 
+    position: fixed; 
+    z-index: 100;
+    background: rgba(238, 130, 238, 0.5);
+}
+nav{
+    float: left;
+}
+nav ul{
+    LIST-STYLE: NONE; 
+    OVERFLOW: HIDDEN; 
+}
+nav ul li{
+    FLOAT:LEFT; 
+    FONT-FAMILY:cursive;
+    FONT-SIZE: 16PX;
+}
+nav ul li a{
+    DISPLAY: BLOCK; 
+    PADDING: 30px; 
+    COLOR: #000000;
+    text-decoration: none;
+}
+nav ul li:hover{
+    BACKGROUND:  rgb(224, 201, 235); 
+}
+nav ul li:hover > .menuvertical{
+    display: block;
+}
+.menuvertical{
+    background-color: rgb(35, 149, 184);
+    position: absolute;
+    display:none;
+    list-style: none;
+    padding: 0%;
+}
+.menuvertical li{
+    float:none;
+}
+.menuvertical li a{
+    display: block;
+    padding: 15px 15px 15px 20px;
+}
