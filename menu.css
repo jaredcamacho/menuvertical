@@ -42,3 +42,12 @@ nav ul li:hover > .menuvertical{
     display: block;
     padding: 15px 15px 15px 20px;
 }
+.asignatura{
+    float: left;
+}
+.grupo{
+    float: right;
+}
+.docente{
+    text-align: center;
+}
