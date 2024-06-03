@@ -29,7 +29,7 @@ nav ul li:hover > .menuvertical{
     display: block;
 }
 .menuvertical{
-    background-color: rgb(35, 149, 184);
+    background-color: rgb(204, 61, 161);
     position: absolute;
     display:none;
     list-style: none;
