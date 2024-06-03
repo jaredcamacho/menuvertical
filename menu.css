@@ -44,9 +44,11 @@ nav ul li:hover > .menuvertical{
 }
 .asignatura{
     float: left;
+    margin-left: 10%;
 }
 .grupo{
     float: right;
+    margin-right: 15%;
 }
 .docente{
     text-align: center;
